@@ -1,0 +1,50 @@
+running egg_info
+creating build/final_package/final_package.egg-info
+writing build/final_package/final_package.egg-info/PKG-INFO
+writing dependency_links to build/final_package/final_package.egg-info/dependency_links.txt
+writing entry points to build/final_package/final_package.egg-info/entry_points.txt
+writing requirements to build/final_package/final_package.egg-info/requires.txt
+writing top-level names to build/final_package/final_package.egg-info/top_level.txt
+writing manifest file 'build/final_package/final_package.egg-info/SOURCES.txt'
+reading manifest file 'build/final_package/final_package.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/final_package/final_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nicolai/ros2_ws/src/final_package/build/final_package/build
+creating /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib
+creating /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package
+copying final_package/PPO_agent.py -> /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package
+copying final_package/utilities.py -> /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package
+copying final_package/__init__.py -> /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package
+copying final_package/follow_joint_trajectory_client.py -> /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package
+copying final_package/ur5e_controller.py -> /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package
+running install
+running install_lib
+creating /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package
+copying /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package/PPO_agent.py -> /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package
+copying /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package/utilities.py -> /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package
+copying /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package/__init__.py -> /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package
+copying /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package/follow_joint_trajectory_client.py -> /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package
+copying /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package/ur5e_controller.py -> /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package
+byte-compiling /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package/PPO_agent.py to PPO_agent.cpython-310.pyc
+byte-compiling /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package/utilities.py to utilities.cpython-310.pyc
+byte-compiling /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package/follow_joint_trajectory_client.py to follow_joint_trajectory_client.cpython-310.pyc
+byte-compiling /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package/ur5e_controller.py to ur5e_controller.cpython-310.pyc
+running install_data
+creating /home/nicolai/ros2_ws/src/final_package/install/final_package/share/ament_index
+creating /home/nicolai/ros2_ws/src/final_package/install/final_package/share/ament_index/resource_index
+creating /home/nicolai/ros2_ws/src/final_package/install/final_package/share/ament_index/resource_index/packages
+copying resource/final_package -> /home/nicolai/ros2_ws/src/final_package/install/final_package/share/ament_index/resource_index/packages
+creating /home/nicolai/ros2_ws/src/final_package/install/final_package/share/final_package/launch
+copying launch/launch_01.py -> /home/nicolai/ros2_ws/src/final_package/install/final_package/share/final_package/launch
+creating /home/nicolai/ros2_ws/src/final_package/install/final_package/share/final_package/worlds
+copying worlds/robotic_arms.wbt -> /home/nicolai/ros2_ws/src/final_package/install/final_package/share/final_package/worlds
+copying worlds/.robotic_arms.wbproj -> /home/nicolai/ros2_ws/src/final_package/install/final_package/share/final_package/worlds
+copying package.xml -> /home/nicolai/ros2_ws/src/final_package/install/final_package/share/final_package
+running install_egg_info
+Copying build/final_package/final_package.egg-info to /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ur5e_controller script to /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/final_package
+writing list of installed files to '/home/nicolai/ros2_ws/src/final_package/build/final_package/install.log'

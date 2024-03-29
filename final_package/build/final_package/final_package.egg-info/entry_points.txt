@@ -1,0 +1,3 @@
+[console_scripts]
+ur5e_controller = final_package.ur5e_controller:main
+

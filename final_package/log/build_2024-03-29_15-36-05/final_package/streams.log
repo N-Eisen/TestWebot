@@ -1,0 +1,52 @@
+[0.748s] Invoking command in '/home/nicolai/ros2_ws/src/final_package': PYTHONPATH=/home/nicolai/ros2_ws/src/final_package/build/final_package/prefix_override:/home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/final_package build --build-base /home/nicolai/ros2_ws/src/final_package/build/final_package/build install --record /home/nicolai/ros2_ws/src/final_package/build/final_package/install.log --single-version-externally-managed install_data
+[0.926s] running egg_info
+[0.927s] creating build/final_package/final_package.egg-info
+[0.927s] writing build/final_package/final_package.egg-info/PKG-INFO
+[0.928s] writing dependency_links to build/final_package/final_package.egg-info/dependency_links.txt
+[0.929s] writing entry points to build/final_package/final_package.egg-info/entry_points.txt
+[0.929s] writing requirements to build/final_package/final_package.egg-info/requires.txt
+[0.929s] writing top-level names to build/final_package/final_package.egg-info/top_level.txt
+[0.929s] writing manifest file 'build/final_package/final_package.egg-info/SOURCES.txt'
+[0.930s] reading manifest file 'build/final_package/final_package.egg-info/SOURCES.txt'
+[0.930s] adding license file 'LICENSE'
+[0.930s] writing manifest file 'build/final_package/final_package.egg-info/SOURCES.txt'
+[0.931s] running build
+[0.931s] running build_py
+[0.931s] creating /home/nicolai/ros2_ws/src/final_package/build/final_package/build
+[0.931s] creating /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib
+[0.931s] creating /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package
+[0.932s] copying final_package/PPO_agent.py -> /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package
+[0.932s] copying final_package/utilities.py -> /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package
+[0.932s] copying final_package/__init__.py -> /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package
+[0.932s] copying final_package/follow_joint_trajectory_client.py -> /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package
+[0.932s] copying final_package/ur5e_controller.py -> /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package
+[0.932s] running install
+[0.932s] running install_lib
+[0.933s] creating /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package
+[0.933s] copying /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package/PPO_agent.py -> /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package
+[0.933s] copying /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package/utilities.py -> /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package
+[0.933s] copying /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package/__init__.py -> /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package
+[0.933s] copying /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package/follow_joint_trajectory_client.py -> /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package
+[0.933s] copying /home/nicolai/ros2_ws/src/final_package/build/final_package/build/lib/final_package/ur5e_controller.py -> /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package
+[0.934s] byte-compiling /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package/PPO_agent.py to PPO_agent.cpython-310.pyc
+[0.935s] byte-compiling /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package/utilities.py to utilities.cpython-310.pyc
+[0.935s] byte-compiling /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package/__init__.py to __init__.cpython-310.pyc
+[0.935s] byte-compiling /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package/follow_joint_trajectory_client.py to follow_joint_trajectory_client.cpython-310.pyc
+[0.936s] byte-compiling /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package/ur5e_controller.py to ur5e_controller.cpython-310.pyc
+[0.936s] running install_data
+[0.936s] creating /home/nicolai/ros2_ws/src/final_package/install/final_package/share/ament_index
+[0.937s] creating /home/nicolai/ros2_ws/src/final_package/install/final_package/share/ament_index/resource_index
+[0.937s] creating /home/nicolai/ros2_ws/src/final_package/install/final_package/share/ament_index/resource_index/packages
+[0.937s] copying resource/final_package -> /home/nicolai/ros2_ws/src/final_package/install/final_package/share/ament_index/resource_index/packages
+[0.937s] creating /home/nicolai/ros2_ws/src/final_package/install/final_package/share/final_package/launch
+[0.937s] copying launch/launch_01.py -> /home/nicolai/ros2_ws/src/final_package/install/final_package/share/final_package/launch
+[0.937s] creating /home/nicolai/ros2_ws/src/final_package/install/final_package/share/final_package/worlds
+[0.941s] copying worlds/robotic_arms.wbt -> /home/nicolai/ros2_ws/src/final_package/install/final_package/share/final_package/worlds
+[0.942s] copying worlds/.robotic_arms.wbproj -> /home/nicolai/ros2_ws/src/final_package/install/final_package/share/final_package/worlds
+[0.942s] copying package.xml -> /home/nicolai/ros2_ws/src/final_package/install/final_package/share/final_package
+[0.942s] running install_egg_info
+[0.944s] Copying build/final_package/final_package.egg-info to /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages/final_package-0.0.0-py3.10.egg-info
+[0.945s] running install_scripts
+[0.958s] Installing ur5e_controller script to /home/nicolai/ros2_ws/src/final_package/install/final_package/lib/final_package
+[0.958s] writing list of installed files to '/home/nicolai/ros2_ws/src/final_package/build/final_package/install.log'
+[0.977s] Invoked command in '/home/nicolai/ros2_ws/src/final_package' returned '0': PYTHONPATH=/home/nicolai/ros2_ws/src/final_package/build/final_package/prefix_override:/home/nicolai/ros2_ws/src/final_package/install/final_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/final_package build --build-base /home/nicolai/ros2_ws/src/final_package/build/final_package/build install --record /home/nicolai/ros2_ws/src/final_package/build/final_package/install.log --single-version-externally-managed install_data
